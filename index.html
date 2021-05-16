@@ -1,10 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="fonts/feather/iconfont.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/colors.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="./img/logo@2x.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Quick Meal Food Industry | Quick Meal</title>
 </head>
 <body>
-$END$
+<!--Main Navigation-->
+<nav class="mynav">
+    <div>
+        <a href="index.html" class="pull-left logo"><img src="./img/logo@2x.png" alt="quick meal logo picture"></a>
+    </div>
+    <div class="d-flex flex-row">
+        <a href="#" class="active">Home
+        <div></div>
+        </a>
+        <a href="#">Meals
+            <div></div>
+        </a>
+        <a href="#">Restaurants
+            <div></div>
+        </a>
+        <a href="#">Services
+            <div></div>
+        </a>
+        <a href="#">Contact
+            <div></div>
+        </a>
+    </div>
+    <div class="searching ">
+        <form action="#" class="d-flex flex-row justify-content-center align-items-center">
+            <label for="search-term">
+                <i class="feather icon-search search-icon"></i>
+                <input type="search" class="text-danger rounded-pill theme-shadow" name="search" placeholder="Search..." id="search-term">
+            </label>
+            <div class="work">
+                <i class="medium-3 feather icon-shopping-cart"></i>
+            </div>
+        </form>
+    </div>
+    <div>
+        <a href="login.html" class="btn rounded-pill flex-row text-white border-0 p-3 theme-shadow" style="background: rgba(222,0,77,0.78);">Start Now! <i class="fa fa-sign-in ps-3 pt-1"></i></a>
+    </div>
+</nav>
+<header class="header theme-background">
+<div class="intro">
+    <span class="badge-glow badge badge-light-danger p-3">Welcome To Quick Meal</span>
+    <h2>Deliver <span>Your</span> <br>Food Within <br> 30 <span>min</span></h2>
+    <p style="width: 370px;">
+        Our motto is to fill your stomach with delicious food and with fast  and free delivery.
+    </p>
+    <p class="btn-group p-3">
+        <a href="#" class="btn btn-danger rounded-1 p-2">Order Now <i class="feather icon-play-circle"></i></a>
+        <a href="#" class="btn btn-white text-danger rounded-1 p-2"><img src="img/carissa-gan-_0JpjeqtSyg-unsplash.jpg" class="play-img rounded-circle"
+                                                                         alt="learn how to use our platform"> <i class="feather icon-play play-btn"></i></a>
+    </p>
+</div>
+</header>
+<div class="page">
+<div class="row feature-tiles w-75  d-flex flex-row justify-content-evenly align-items-center">
+    <div class="flex-grow-3 w-100 text-center">
+        <h2 class="text-danger d-inline-block small">FEATURES</h2>
+        <h1 class="pb-5">Why Choose Us?</h1>
+
+    </div>
+
+    <div class="features flex-grow-1">
+        <img src="img/food-delivery2.png" alt="food delivery picture" class="feature-pic">
+        <h2>Easy To Order</h2>
+        <p>From the Hundreds of ready to order meals to take good care of your craving with just 3 clicks</p>
+    </div>
+
+    <div class="features flex-grow-1">
+        <img src="img/meal-details.png" alt="food delivery picture" class="feature-pic">
+        <h2>Many Food Types</h2>
+        <p>We cover many different restaurants out here and keep it very easy to order from any of them with no stress.</p>
+    </div>
+
+    <div class="features flex-grow-1">
+        <img src="img/food-delivery2.png" alt="food delivery picture" class="feature-pic">
+        <h2>Fastest Delivery</h2>
+        <p>We make it even simpler for you, lets bring the meals to you right at your doorstep, Start today.</p>
+    </div>
+</div>
+
+<section class="more-adverts">
+    <div class="adverts-div">
+        <div class="adverts-left">
+            <h3>We are 100% Confident</h3>
+            <p>
+                We are new but we we are not rookies in the business. We Bring out the quality in every dish that comes your way.
+                we keep you satisfied by the policies we implement on all the restaurants on our platforms and we aim only at
+                bringing to you, the best meals you could ever wish for, and while it's still hot too. Start using us.
+            </p>
+            <hr class="divider-success">
+            <div class="pt-5">
+                <a href="#" class="btn btn-warning btn-lg rounded-pill pt-3">Order your First meal <i class="fa fa-cart-arrow-down"></i></a>
+                <a href="#" class="btn btn-danger text-white btn-lg rounded-pill pt-3">Explore Restaurants</a>
+            </div>
+        </div>
+        <div class="adverts-right">
+
+        </div>
+    </div>
+</section>
+<!--/End of ADVERTS SECTION-->
+
+<!--Featured Meals-->
+    <section id="featured-meals-section">
+        <div class="row">
+            <div class="row">
+                <h3 class="text-danger small text-center pt-5">TRENDING MEALS</h3>
+                <h2 class="text-black-50 text-center" style='font-size: 4em; font-family: "Bauhaus 93", "Berlin Sans FB Demi", "Britannic Bold", "Yu Gothic UI Semibold", cursive'>See Our Featured Food Menu</h2>
+            </div>
+            <div class="row meal-tray" style="padding-left: 150px;">
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+                <div class="meals featured-meals p-0">
+                    <div class="img">
+                        <img src="img/featured1@2x.png" alt="featured meal">
+                    </div>
+                    <p>Fresh and healthy Salad</p>
+                    <span class="text-black-50 small text-center">60 Calories</span>
+                    <hr class="divide">
+                    <div class="bottom-meal p-0 w-100 d-flex flex-row flex-nowrap justify-content-between">
+                        <div class="d-flex flex-column p-0 flex-nowrap" style="width: 100% !important;">
+                            <span class="w-50 small text-black-50">Time</span>
+                            <span class="w-50 small text-black-50" style="font-weight: bolder">30 mins</span>
+                        </div>
+                        <div class="d-flex flex-column p-1 justify-content-end flex-nowrap" style="text-align:right; width: 100% !important;">
+                            <span class="small text-black-50">1,200XAF</span>
+                            <span class="small text-black-50" style="font-weight: bolder">Per Plate</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn shadow-lg bg-warning text-white btn-lg">Add Meal <i class="fa fa-plus-circle text-warning"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!--/END FEATURED-->
+</div>
+
+
+<!--Importing javascript libraries-->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery/src/selector.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
