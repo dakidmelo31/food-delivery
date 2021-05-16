@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.mylogo{
+    width: 80px;
+}
+
+@media screen and (max-width: 550px) {
+    body{
+        background: #f0f0f0aa url("../img/mobile-dashboard-bg.png") no-repeat center center scroll;
+        background-size: 100%;
+    }
+    .btn-nice, .nice
+    {
+        background: #ff0058;
+        color: #ffffff;
+    }
+    .meal
+    {
+        border-radius: 20px !important;
+    }
+
+
+}

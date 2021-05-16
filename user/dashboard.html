@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../fonts/feather/iconfont.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/colors.min.css">
+    <link rel="stylesheet" href="../css/user.css">
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <title>Welcome To your Dashboard | QuickMeal</title>
 </head>
 <body>
-$END$
+<nav class="navbar nav nav-fill shadow-sm">
+    <a href="dashboard.html">
+        <img src="../img/logo@2x.png" alt="quickmeal logo" class="mylogo">
+    </a>
+    <a href="cart.html" class="text-white" style="font-size: 3em;"><i class="fa fa-shopping-basket"></i><span class="badge btn-warning small rounded-2 position-relative" style="font-size: 12px; right: 15px; bottom: 10px;">4</span></a>
+    <div class="search">
+        <form action="#" class="d-inline"><input type="search" placeholder="Search..." id="searcher" name="search" class="border-0 p-2 rounded-pill"/> <label for="searcher" class="position-relative" style="right: 30px"><i class="feather icon-search"></i></label></form>
+    </div>
+</nav>
+<div class="page col-12 row">
+<div class="row col-10 tabs btn-group-lg d-flex flex-row flex-nowrap mt-3 shadow-sm" style="margin: 0 auto;">
+    <a href="#" class="btn btn-nice flex-grow-1 w-50 rounded-4 d-flex justify-content-evenly align-items-center" style="transform: scale(1.2)">Restaurants <i class="fa fa-check-circle"></i></a>
+    <a href="#" class="btn btn-white flex-grow-1 w-50 text-black-50 rounded-4">Delicacies</a>
+</div>
+<section class="meals-section">
+    <div class="row">
+        <div class="meal bg-white col-sm-10 rounded-3 shadow-lg d-sm-flex flex-sm-nowrap flex-md-nowrap flex-sm-row flex-md-row" style="margin: 15px auto;">
+            <div class="card-img">
+                <img src="../img/featured1@2x.png" alt="food">
+            </div>
+            <div class="details">
+                <h2 class="card-title text-black-50">Fried Rice & Shrimps</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<!--Libraries-->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
